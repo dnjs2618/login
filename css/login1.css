@@ -1,0 +1,86 @@
+html,
+body {
+  height: 100%;
+}
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.login {
+  padding: 20px;
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.login .login__name {
+  font-size: 3rem;
+  font-weight: 800;
+}
+.login .login__member {
+  display: flex;
+  margin-top: 40px;
+}
+
+.login__member .login__member-yes {
+  padding: 13px 80px;
+  background-color: #000000;
+  color: #fff;
+  font-weight: 600;
+}
+
+.login__member .login__member-no {
+  padding: 13px 80px;
+  background-color: #fff;
+  color: #000000;
+  font-weight: 600;
+  border: 1px solid #d6d6d6;
+  border-bottom: 4px solid #000000;
+}
+
+.login__box {
+  width: 400px;
+}
+
+.login__box-id input,
+.login__box-password input {
+  width: 100%;
+  padding: 10px 0px;
+}
+
+.login__box-id {
+  margin: 15px 0px;
+}
+.login__box-password {
+  margin-bottom: 10px;
+}
+
+.login .login__button {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+  margin: 20px 0px;
+  background-color: #000000;
+  color: #fff;
+  font-weight: 600;
+}
+
+.login .login__find {
+  display: flex;
+}
+
+.login__find .login__find-item {
+  border-right: 2px solid gray;
+  padding: 0px 30px;
+  font-weight: 600;
+  opacity: 0.7;
+}
+
+.login__find .login__find-item:last-child {
+  border: none;
+}
